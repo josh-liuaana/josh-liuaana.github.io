@@ -1,0 +1,49 @@
+p {
+    color: crimson;
+}
+
+html {
+    font-family: 'Redressed', cursive;
+}
+
+body {
+    margin: 10px;
+}
+
+#header {
+    background-color: aqua;
+}
+
+.row {
+    display: flex;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-4 {
+    width: 33.3%;
+}
+.top-right {
+    text-align: right;
+}
+
+.img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+}
+
