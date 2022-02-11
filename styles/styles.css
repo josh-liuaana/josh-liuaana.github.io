@@ -28,12 +28,46 @@ a:hover {
 }
 
 #sub-text {
-    color: rgb(85, 85, 85);
+    text-align: center;
+    
+}
+
+#main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2 {
+    color: gray;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.feature-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .row {
     display: flex;
 }
+
+
+.img {
+    margin-right: 35px;
+}
+
+
+.feature {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: solid;
+    border-color: gray;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
 
 .col-6 {
     width: 50%;
