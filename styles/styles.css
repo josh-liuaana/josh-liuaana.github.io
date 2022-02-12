@@ -42,6 +42,14 @@ a:hover {
     padding-right: 30px;
 }
 
+.MBP-main {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
 h2 {
     color: gray;
     margin-block-start: 5px;
@@ -102,6 +110,9 @@ h2 {
 
 #footer {
     background-color: gray;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
     padding-left: 30px;
     padding-right: 30px;
     text-align: right;
