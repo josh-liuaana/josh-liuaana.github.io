@@ -6,7 +6,7 @@ body {
     margin: 0px;
 }
 
-
+/* header stuff*/
 
 #header {
     background-color: gray;
@@ -27,10 +27,14 @@ a:hover {
     text-shadow: 1px 1px 4px black;
 }
 
+/* sub-text*/
+
 #sub-text {
     text-align: center;
     
 }
+
+/* main stuff */
 
 #main {
     padding-left: 30px;
@@ -57,7 +61,6 @@ h2 {
 .img {
     margin-right: 35px;
 }
-
 
 .feature {
     margin-bottom: 15px;
@@ -94,7 +97,17 @@ h2 {
     height: auto;
 }
 
-.footer {
-    text-align: center;
+/* footer stuff */
+
+#footer {
+    background-color: gray;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: right;
 }
 
+.GH-logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 45px;
+}
