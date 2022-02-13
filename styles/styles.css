@@ -7,12 +7,29 @@ body {
 
 }
 
-/* header stuff*/
+/* header stuff
+    overflow: auto;
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: right;
+
+
+
+*/
 
 #header {
     background-color: gray;
     padding-left: 30px;
+    
     padding-right: 30px;
+    
+    width: 100%;
+    box-sizing: border-box;
+    
 }
 
 a {
@@ -110,6 +127,8 @@ h2 {
 
 #footer {
     background-color: gray;
+    overflow: auto;
+    position: fixed;
     box-sizing: border-box;
     bottom: 0;
     width: 100%;
