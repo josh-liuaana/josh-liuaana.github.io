@@ -43,6 +43,7 @@ a:link {
 a:hover {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 4px black;
+    s
 }
 
 /* sub-text*/
@@ -119,7 +120,7 @@ h2 {
 
 .img {
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
 }
 
