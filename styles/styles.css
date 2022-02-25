@@ -84,10 +84,6 @@ h2 {
 }
 
 
-.img {
-    margin-right: 35px;
-}
-
 .feature {
     margin-bottom: 15px;
     margin-top: 10px;
@@ -118,6 +114,7 @@ h2 {
 }
 
 .img {
+    margin-right: 35px;
     width: 100%;
     max-width: 400px;
     height: auto;
