@@ -162,12 +162,6 @@ h2 {
 
 
 .feature {
-    margin-bottom: 15px;
-    margin-top: 10px;
-    border: solid;
-    border-color: gray;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
     position: relative;
     width: 100%;
 }
@@ -177,6 +171,7 @@ h2 {
     height: auto;
     border-radius: 10px;    
     display: block;
+    margin-bottom: 5px;
 }
 
 .feature:hover .overlay {
@@ -195,7 +190,7 @@ h2 {
     padding-left: 30px;
     padding-right: 30px;
     text-align: right;
-    position: fixed;
+    position:relative
 }
 
 .GH-logo {
