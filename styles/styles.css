@@ -83,19 +83,6 @@ h2 {
     text-align: center;
 }
 
-.row {
-    display: flex;
-}
-
-
-.feature {
-    margin-bottom: 15px;
-    margin-top: 10px;
-    border: solid;
-    border-color: gray;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
 
 
 .col-6 {
@@ -135,8 +122,8 @@ h2 {
     height: auto;
     border-radius: 10px;    
     display: block;
-    }
-  
+}
+
 .overlay {
     position: absolute;
     bottom: 100%;
@@ -149,12 +136,12 @@ h2 {
     transition: .8s ease;
     border-radius: 10px;
 }
-  
+
 .container:hover .overlay {
     bottom: 0;
     height: 100%;
 }
-  
+
 .text {
     white-space: nowrap; 
     color: white;
@@ -167,8 +154,35 @@ h2 {
     -ms-transform: translate(-50%, -50%);
 }
 
+/* feature images + overlay */
+
+.row {
+    display: flex;
+}
 
 
+.feature {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: solid;
+    border-color: gray;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.feature-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;    
+    display: block;
+}
+
+.feature:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
 
 /* footer stuff */
 
